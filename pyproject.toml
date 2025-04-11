@@ -1,0 +1,19 @@
+[project]
+name = "video-intelligence-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "groundlight>=0.21.3",
+    "imgcat>=0.6.0",
+    "ipdb>=0.13.13",
+    "ipykernel>=6.29.5",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.1.0",
+    "python-dotenv>=1.0.1",
+    "tqdm>=4.67.1",
+]
+
+[tool.setuptools]
+packages = ["framework"]
